@@ -9,10 +9,8 @@
     "start:node": "node server.js",
     "dev": "concurrently --kill-others -p \"[{name}]\" -n \"SERVER,ASSETS\" -c \"bgGreen.bold,bgMagenta.bold\" \"npm run serve:dev\" \"npm run build:dev\"",
     "test": "node ace test",
-
     "serve": "./node_modules/.bin/adonis serve",
     "serve:dev": "npm run serve -- --dev",
-
     "build": "gulp build",
     "build:dev": "gulp default"
   },
@@ -43,6 +41,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.6.1",
     "concurrently": "^3.5.1",
+    "eslint": "^4.19.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^7.0.1",
