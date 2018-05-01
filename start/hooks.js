@@ -24,6 +24,13 @@ hooks.after.providersRegistered(() => {
   })
 
   /**
+   * Adds a "Date" global alias into de views:
+   */
+  View.global('Date', (...args) => {
+    return new Date(...args)
+  })
+
+  /**
    * Adds a moment.js global alias into the views:
    */
   View.global('moment', (...args) => {
