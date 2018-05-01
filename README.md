@@ -1,5 +1,13 @@
 # Fullstack Boilerplate (AdonisJs)
 
+### Install
+
+```shell
+adonis new app --blueprint lffg/adonis-fullstack-boilerplate
+```
+
+### About
+
 A fork of [`adonis-fullstack-app`](https://github.com/adonisjs/adonis-fullstack-app) with some changes, such as:
 
 - **Main changes**:
